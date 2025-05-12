@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   return (
@@ -37,61 +38,114 @@ const About = () => {
           
           <div className="order-1 md:order-2">
             <div className="grid grid-cols-2 gap-4">
-              <Card className="p-4 animate-fade-in" style={{animationDelay: "0.1s"}}>
-                <CardContent className="p-0 flex flex-col items-center text-center">
-                  <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
-                    </svg>
-                  </div>
-                  <h3 className="font-bold">Wikimedia</h3>
-                  <p className="text-sm text-muted-foreground">Software Engineer</p>
-                </CardContent>
-              </Card>
+              <a 
+                href="https://enterprise.wikimedia.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block transition-transform hover:scale-105"
+              >
+                <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.1s"}}>
+                  <CardContent className="p-0 flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
+                      </svg>
+                    </div>
+                    <h3 className="font-bold">Wikimedia</h3>
+                    <p className="text-sm text-muted-foreground">Software Engineer</p>
+                    <Badge variant="outline" className="mt-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                      </svg>
+                      Visit
+                    </Badge>
+                  </CardContent>
+                </Card>
+              </a>
               
-              <Card className="p-4 animate-fade-in" style={{animationDelay: "0.2s"}}>
-                <CardContent className="p-0 flex flex-col items-center text-center">
-                  <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <rect width="18" height="18" x="3" y="3" rx="2"/>
-                      <path d="M7 7h.01"/>
-                      <path d="M17 7h.01"/>
-                      <path d="M7 17h.01"/>
-                      <path d="M17 17h.01"/>
-                    </svg>
-                  </div>
-                  <h3 className="font-bold">CKA</h3>
-                  <p className="text-sm text-muted-foreground">Certified Kubernetes Administrator</p>
-                </CardContent>
-              </Card>
+              <a 
+                href="https://www.cncf.io/certification/cka/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block transition-transform hover:scale-105"
+              >
+                <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.2s"}}>
+                  <CardContent className="p-0 flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="8" r="7"></circle>
+                        <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                      </svg>
+                    </div>
+                    <h3 className="font-bold">Certified Kubernetes Administrator</h3>
+                    <p className="text-sm text-muted-foreground">CNCF</p>
+                    <Badge variant="outline" className="mt-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                      </svg>
+                      Learn more
+                    </Badge>
+                  </CardContent>
+                </Card>
+              </a>
               
-              <Card className="p-4 animate-fade-in" style={{animationDelay: "0.3s"}}>
-                <CardContent className="p-0 flex flex-col items-center text-center">
-                  <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="m3 17 2 2 4-4"/>
-                      <path d="m3 7 2 2 4-4"/>
-                      <path d="M13 6h8"/>
-                      <path d="M13 12h8"/>
-                      <path d="M13 18h8"/>
-                    </svg>
-                  </div>
-                  <h3 className="font-bold">AWS</h3>
-                  <p className="text-sm text-muted-foreground">Community Builder</p>
-                </CardContent>
-              </Card>
+              <a 
+                href="https://aws.amazon.com/developer/community/community-builders/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block transition-transform hover:scale-105"
+              >
+                <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.3s"}}>
+                  <CardContent className="p-0 flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="9" cy="7" r="4"></circle>
+                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                      </svg>
+                    </div>
+                    <h3 className="font-bold">AWS</h3>
+                    <p className="text-sm text-muted-foreground">Community Builder</p>
+                    <Badge variant="outline" className="mt-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                      </svg>
+                      Join community
+                    </Badge>
+                  </CardContent>
+                </Card>
+              </a>
               
-              <Card className="p-4 animate-fade-in" style={{animationDelay: "0.4s"}}>
-                <CardContent className="p-0 flex flex-col items-center text-center">
-                  <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                      <path d="M18 3a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3H6a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3h12a3 3 0 0 0 3-3 3 3 0 0 0-3-3z"/>
-                    </svg>
-                  </div>
-                  <h3 className="font-bold">SloConf</h3>
-                  <p className="text-sm text-muted-foreground">Captain for Africa</p>
-                </CardContent>
-              </Card>
+              <a 
+                href="https://www.sloconf.com/" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="block transition-transform hover:scale-105"
+              >
+                <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.4s"}}>
+                  <CardContent className="p-0 flex flex-col items-center text-center">
+                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <path d="M12 20h9"></path>
+                        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                      </svg>
+                    </div>
+                    <h3 className="font-bold">SloConf</h3>
+                    <p className="text-sm text-muted-foreground">Conference Speaking</p>
+                    <Badge variant="outline" className="mt-2">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+                      </svg>
+                      View talks
+                    </Badge>
+                  </CardContent>
+                </Card>
+              </a>
             </div>
           </div>
         </div>
