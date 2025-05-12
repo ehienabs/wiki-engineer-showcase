@@ -28,7 +28,7 @@ const Hero = () => {
               <a href="#projects">View My Work</a>
             </Button>
             <Button variant="outline" className="px-8 py-6" asChild>
-              <a href="#contact">Contact Me</a>
+              <a href="#publications">Read My Articles</a>
             </Button>
           </div>
           
