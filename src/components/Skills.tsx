@@ -7,7 +7,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "TypeScript", "Java", "Scala", "Go", "SQL"],
+      skills: ["Golang", "Python", "Bash", "SQL"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="m18 16 4-4-4-4"/>
@@ -17,53 +17,55 @@ const Skills = () => {
       ),
     },
     {
-      title: "Backend & Infrastructure",
-      skills: ["AWS", "Kubernetes", "Docker", "Terraform", "Kafka", "Redis", "PostgreSQL", "MongoDB", "Elasticsearch"],
+      title: "Cloud & Container Orchestration",
+      skills: ["Kubernetes", "Docker", "Podman", "AWS", "GCP", "Azure", "Binero"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M2 19V8.7a3 3 0 0 1 .8-2.05l4.98-5.36a1 1 0 0 1 1.46.04l5.1 5.32a3 3 0 0 1 .84 2.08V19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/>
-          <path d="m9 21v-7.5a1.5 1.5 0 0 1 1.5-1.5h3a1.5 1.5 0 0 1 1.5 1.5V21"/>
+          <path d="M22 12.5a2.5 2.5 0 0 0-2.5-2.5A2.5 2.5 0 0 0 17 7.5 2.5 2.5 0 0 0 14.5 5 2.5 2.5 0 0 0 12 2.5 2.5 2.5 0 0 0 9.5 5 2.5 2.5 0 0 0 7 7.5 2.5 2.5 0 0 0 4.5 10 2.5 2.5 0 0 0 2 12.5"/>
+          <path d="M2 12.5a2.5 2.5 0 0 0 2.5 2.5A2.5 2.5 0 0 0 7 17.5 2.5 2.5 0 0 0 9.5 20 2.5 2.5 0 0 0 12 22.5 2.5 2.5 0 0 0 14.5 20 2.5 2.5 0 0 0 17 17.5a2.5 2.5 0 0 0 2.5-2.5"/>
+          <path d="M7 15V9"/>
+          <path d="M12 17v-8"/>
+          <path d="M17 15V9"/>
         </svg>
       ),
     },
     {
-      title: "Data Engineering",
-      skills: ["Apache Spark", "Airflow", "Hadoop", "ETL", "Data Warehousing", "Data Pipelines", "Pandas", "PySpark"],
+      title: "DevOps & Infrastructure",
+      skills: ["Crossplane", "Terraform", "CI/CD", "Tekton", "Jenkins", "GitHub Actions", "ArgoCD"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <ellipse cx="12" cy="5" rx="9" ry="3"/>
-          <path d="M3 5v14a9 3 0 0 0 18 0V5"/>
-          <path d="M3 12a9 3 0 0 0 18 0"/>
+          <path d="M16 16h6"/>
+          <path d="M19 13v6"/>
+          <path d="M12 15c-.19-.83-1-1.5-2-1.5-1.38 0-2.5 1.12-2.5 2.5S8.62 18.5 10 18.5c.76 0 1.43-.34 1.88-.88"/>
+          <path d="M5 10c.5 0 .94.2 1.25.52s.5.76.5 1.24a1.74 1.74 0 0 1-1.75 1.74A1.74 1.74 0 0 1 3.25 11.74c0-.92.75-1.67 1.67-1.74"/>
+          <path d="M2 16.5h.01"/>
+          <rect width="6" height="3" x="8" y="7" rx="1.5"/>
+          <path d="M15 8h8.5V7a2 2 0 0 0-2-2h-17a2 2 0 0 0-2 2v11a2 2 0 0 0 2 2H7"/>
         </svg>
       ),
     },
     {
-      title: "Frontend & API",
-      skills: ["React", "RESTful APIs", "GraphQL", "Node.js", "Express", "HTML/CSS", "Tailwind CSS", "API Design"],
+      title: "Observability & Monitoring",
+      skills: ["Prometheus", "Grafana", "Jaeger", "Open Telemetry", "Fluent Bit", "Logs", "Metrics", "Traces"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="M10 17c-1-1-4-1-4-4C6 7 13.5 5 16 2"/>
-          <path d="M8.5 17c0 0 1.5 3 6 1"/>
-          <path d="M8.5 9C6 9 4 11 4 13s2 4 3 4"/>
+          <path d="M3 3v18h18"/>
+          <path d="M18.7 8l-5.1 5.2-2.8-2.7L7 14.3"/>
         </svg>
       ),
     },
     {
-      title: "DevOps & Methodologies",
-      skills: ["CI/CD", "Jenkins", "GitHub Actions", "GitLab CI", "Agile", "Scrum", "Test-Driven Development", "Microservices"],
+      title: "Event-Driven Systems",
+      skills: ["Apache Kafka", "KSQLDB", "Event Processing", "Messaging Systems", "Data Streaming"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <rect width="18" height="18" x="3" y="3" rx="2"/>
-          <path d="M7 7h.01"/>
-          <path d="M17 7h.01"/>
-          <path d="M7 17h.01"/>
-          <path d="M17 17h.01"/>
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
         </svg>
       ),
     },
     {
-      title: "Others",
-      skills: ["System Design", "Technical Documentation", "Open Source Contribution", "Mentoring", "Security Best Practices", "Performance Optimization"],
+      title: "Other Skills",
+      skills: ["JIRA", "Phabricator", "Zendesk", "Technical Documentation", "Mentoring", "Leadership", "Communication"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -83,7 +85,7 @@ const Skills = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
           {skillCategories.map((category, index) => (
             <Card key={index} className="animate-fade-in overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
-              <div className="bg-wikimedia text-white p-4 flex items-center">
+              <div className="bg-purple-600 text-white p-4 flex items-center">
                 <div className="mr-3">{category.icon}</div>
                 <h3 className="font-bold">{category.title}</h3>
               </div>

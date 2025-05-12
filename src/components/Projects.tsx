@@ -7,63 +7,63 @@ import { Button } from "@/components/ui/button";
 const Projects = () => {
   const projects = [
     {
-      title: "MediaData Pipeline",
-      description: "A high-throughput data processing pipeline that extracts, transforms, and loads terabytes of Wikimedia content daily. Enables efficient content delivery to enterprise partners.",
+      title: "API Performance Optimization",
+      description: "Architected and deployed scalable applications for delivering large volumes of data through APIs, optimizing performance and reliability to meet high user demands.",
       image: "/placeholder.svg",
-      tags: ["Apache Spark", "Airflow", "Kubernetes", "Python"],
+      tags: ["Golang", "Kubernetes", "Performance Engineering", "API Design"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     },
     {
-      title: "Knowledge Graph API",
-      description: "RESTful and GraphQL APIs for accessing structured knowledge from Wikimedia projects. Features caching, rate limiting, and comprehensive documentation.",
+      title: "Wikipedia Data Parser",
+      description: "Developed a new data product leveraging advanced parsing techniques on Wikipedia data. Designed, implemented, and tested the product to extract valuable insights.",
       image: "/placeholder.svg",
-      tags: ["GraphQL", "Node.js", "Redis", "TypeScript", "Elasticsearch"],
+      tags: ["Python", "Data Processing", "NLP", "Parser"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     },
     {
-      title: "Content Change Streaming",
-      description: "Real-time content change notification system utilizing Kafka streams. Enables partners to receive immediate updates when content changes across Wikimedia projects.",
+      title: "Wikimedia Event Processing",
+      description: "Managed event-driven systems using Apache Kafka and KSQLDB to ensure seamless and timely data processing while monitoring system health and performance.",
       image: "/placeholder.svg",
-      tags: ["Kafka", "Java", "AWS", "Event-driven"],
+      tags: ["Kafka", "KSQLDB", "Event-driven", "Data Streaming"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     },
     {
-      title: "Enterprise Dashboard",
-      description: "Analytics dashboard for enterprise customers to monitor API usage, data freshness, and system performance. Features customizable visualizations and alerts.",
+      title: "Observability Platform",
+      description: "Implemented system observability and visibility via metrics using Prometheus and Open Telemetry. Created dashboards and alerts for monitoring system performance.",
       image: "/placeholder.svg",
-      tags: ["React", "D3.js", "TypeScript", "REST API"],
+      tags: ["Prometheus", "Grafana", "Open Telemetry", "Monitoring"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     },
     {
-      title: "Content Quality Metrics",
-      description: "Machine learning pipeline for assessing and scoring content quality across articles. Enables filtering and prioritization of high-quality content.",
+      title: "Kubernetes Cluster Management",
+      description: "Deployed and managed Kubernetes clusters in various cloud providers, including AWS, GCP, Azure, and Binero, using the Hub and Spoke model.",
       image: "/placeholder.svg",
-      tags: ["Python", "scikit-learn", "NLP", "TensorFlow"],
+      tags: ["Kubernetes", "Cloud", "Infrastructure", "Terraform"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     },
     {
-      title: "Wikimedia Commons Indexer",
-      description: "Scalable system for indexing and making searchable millions of media files in Wikimedia Commons, including images, PDFs, and audio files.",
+      title: "Fluent Bit Telemetry Pipeline",
+      description: "Designed and implemented observability pipelines for Telemetry data in distributed environments using Fluent Bit to aggregate Logs, Metrics, and Traces.",
       image: "/placeholder.svg",
-      tags: ["Elasticsearch", "Python", "Go", "AWS S3"],
+      tags: ["Fluent Bit", "Observability", "Logs", "Metrics", "Traces"],
       links: {
-        demo: "https://enterprise.wikimedia.com/solutions",
-        github: "https://github.com/wikimedia"
+        demo: "#",
+        github: "#"
       }
     }
   ];
