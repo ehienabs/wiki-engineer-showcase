@@ -13,15 +13,12 @@ const Hero = () => {
       
       <div className="section-container">
         <div className="flex flex-col items-center text-center animate-fade-in">
-          <p className="mb-4 text-purple-600 font-medium">Software Engineer at Wikimedia</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 lg:mb-8">
             Ehi Enabulele
             <br /> <span className="text-purple-600">Software Engineer</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 lg:mb-10">
-            Dedicated Software Engineer passionate about Performance Engineering and Observability in 
-            large-scale events-driven distributed systems. Specializing in cloud-native applications 
-            and data engineering.
+            Software Engineer, passionate about open data and engineering systems that support data products at scale
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-purple-600 hover:bg-purple-700 text-white px-8 py-6" asChild>

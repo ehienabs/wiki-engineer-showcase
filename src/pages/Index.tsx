@@ -9,6 +9,8 @@ import Publications from "@/components/Publications";
 import Speaking from "@/components/Speaking";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import Community from "@/components/Community";
+import Certifications from "@/components/Certifications";
 
 const Index = () => {
   return (
@@ -18,8 +20,10 @@ const Index = () => {
         <Hero />
         <About />
         <Skills />
+        <Certifications />
         <Projects />
         <Publications />
+        <Community />
         <Speaking />
         <Contact />
       </main>

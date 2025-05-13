@@ -39,7 +39,7 @@ const About = () => {
           <div className="order-1 md:order-2">
             <div className="grid grid-cols-2 gap-4">
               <a 
-                href="https://enterprise.wikimedia.com/" 
+                href="https://www.linkedin.com/in/ehienabs" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="block transition-transform hover:scale-105"
@@ -51,8 +51,8 @@ const About = () => {
                         <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
                       </svg>
                     </div>
-                    <h3 className="font-bold">Wikimedia</h3>
-                    <p className="text-sm text-muted-foreground">Software Engineer</p>
+                    <h3 className="font-bold">Career</h3>
+                    <p className="text-sm text-muted-foreground">Professional Experience</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -65,9 +65,7 @@ const About = () => {
               </a>
               
               <a 
-                href="https://www.cncf.io/certification/cka/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                href="#certifications" 
                 className="block transition-transform hover:scale-105"
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.2s"}}>
@@ -78,8 +76,8 @@ const About = () => {
                         <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
                       </svg>
                     </div>
-                    <h3 className="font-bold">Certified Kubernetes Administrator</h3>
-                    <p className="text-sm text-muted-foreground">CNCF</p>
+                    <h3 className="font-bold">Certifications</h3>
+                    <p className="text-sm text-muted-foreground">Technical Credentials</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
@@ -92,9 +90,7 @@ const About = () => {
               </a>
               
               <a 
-                href="https://aws.amazon.com/developer/community/community-builders/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                href="#community" 
                 className="block transition-transform hover:scale-105"
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.3s"}}>
@@ -107,8 +103,8 @@ const About = () => {
                         <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
                       </svg>
                     </div>
-                    <h3 className="font-bold">AWS</h3>
-                    <p className="text-sm text-muted-foreground">Community Builder</p>
+                    <h3 className="font-bold">Community Service</h3>
+                    <p className="text-sm text-muted-foreground">Tech Community Engagement</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
