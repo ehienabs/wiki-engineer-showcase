@@ -104,7 +104,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm">GitHub</h4>
-                    <p className="text-muted-foreground">https://github.com/ehienabs</p>
+                    <p className="text-muted-foreground">github.com/ehienabs</p>
                   </div>
                 </CardContent>
               </Card>

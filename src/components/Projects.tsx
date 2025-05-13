@@ -8,9 +8,9 @@ const Projects = () => {
   const projects = [
     {
       title: "Eftychia",
-      description: "A project focused on happiness and well-being metrics tracking and analysis, leveraging modern data processing techniques.",
-      image: "/placeholder.svg",
-      tags: ["Python", "Data Analysis", "Metrics", "Well-being"],
+      description: "Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. She only provisions the compute resources —VMs, Load Balancer, Disks etc.",
+      image: "/Eftychia.png",
+      tags: ["Terraform", "Infrastructure-as-code", "Kubernetes", "Infrastructure Automation"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/eftychia"
@@ -18,9 +18,9 @@ const Projects = () => {
     },
     {
       title: "Eutuxia",
-      description: "A system designed for prosperity analysis and monitoring, implementing advanced algorithms for economic indicators.",
-      image: "/placeholder.svg",
-      tags: ["Python", "Data Science", "Economic Analysis", "Monitoring"],
+      description: "Eutuxia defines the application resources, management, infrastructure and deployment of a proposed video sharing platform as declarative code.",
+      image: "/Eutuxia.png",
+      tags: ["ArgoCD", "Continuous Deployment", "Kubernetes", "Developer Experience"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/eutuxia"
