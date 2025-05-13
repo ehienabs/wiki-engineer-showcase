@@ -121,9 +121,7 @@ const About = () => {
               </a>
               
               <a 
-                href="https://www.sloconf.com/" 
-                target="_blank" 
-                rel="noopener noreferrer" 
+                href="#speaking" 
                 className="block transition-transform hover:scale-105"
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.4s"}}>
@@ -134,8 +132,8 @@ const About = () => {
                         <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
                       </svg>
                     </div>
-                    <h3 className="font-bold">SloConf</h3>
-                    <p className="text-sm text-muted-foreground">Conference Speaking</p>
+                    <h3 className="font-bold">Conference Speaking</h3>
+                    <p className="text-sm text-muted-foreground">Tech Conferences</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
