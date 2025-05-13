@@ -34,7 +34,7 @@ const NavBar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="text-xl font-bold text-foreground">
-          <span className="text-wikimedia">W</span>ikimedia Engineer
+          <span className="text-wikimedia">E</span>hi Enabulele
         </a>
 
         {/* Desktop menu */}

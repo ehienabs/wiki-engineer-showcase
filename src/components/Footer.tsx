@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
             <h2 className="text-2xl font-bold mb-2">
-              <span className="text-wikimedia-accent">W</span>ikimedia Engineer
+              <span className="text-wikimedia-accent">E</span>hi Enabulele
             </h2>
             <p className="text-wikimedia-light text-sm max-w-md">
               Building scalable digital infrastructure for knowledge access and distribution.
@@ -42,7 +42,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-wikimedia-light/20 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-wikimedia-light mb-4 md:mb-0">
-            © 2025 Wikimedia Engineer. All rights reserved.
+            © 2025 Ehi Enabulele. All rights reserved.
           </p>
           
           <nav className="flex space-x-6 text-sm text-wikimedia-light">

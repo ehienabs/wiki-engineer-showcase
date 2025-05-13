@@ -9,29 +9,27 @@ const About = () => {
       <div className="section-container">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle">
-          Committed and exemplary performer in managing high-volume APIs and maintaining Cloud and Kubernetes Native applications
+          Committed to managing high-volume APIs and maintaining Cloud and Kubernetes Native applications at scale.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mt-12">
           <div className="order-2 md:order-1 animate-fade-in">
-            <h3 className="text-2xl font-bold mb-4">My Journey</h3>
+            <h3 className="text-2xl font-bold mb-4">Here's Me!</h3>
             <div className="space-y-4 text-base md:text-lg">
               <p>
-                As a Software Engineer at Wikimedia, I architect and deploy scalable applications for delivering large volumes 
-                of data through APIs, optimizing performance and reliability to effectively meet the demands of our user base.
+                I am passionate about architecting and deploying scalable applications for delivering large volumes 
+                of data through APIs. My primary focus is ensuring the longevity of software through resilient design,
+                a comprehensive moitoring strategy and smooth developer experience.
               </p>
               <p>
-                Previously at Calyptia, I worked as a Technical Support Engineer troubleshooting issues related to
-                Fluent Bit software and providing technical consultation on observability pipelines for Telemetry data 
-                in distributed environments.
+                My work transverse both enterprise and small scale, having provided support for software with over a billion downloads,
+                building developer friendly software delivery platorm and authoring comprehensive technical documentation.
               </p>
               <p>
-                I have experience as a DevOps Intern at Stakater, where I collaborated with an agile team to design, build 
-                and manage Kubernetes native applications, delivering highly available and scalable cloud-native solutions for enterprise customers.
+                I have  collaborated with globally remot teams to design, build and manage Kubernetes native applications, delivering highly available and scalable cloud-native solutions for enterprise customers.
               </p>
               <p>
-                I'm passionate about open source and knowledge sharing, and I'm proud to serve as the Captain for Africa at SloConf, 
-                a conference focused on Service Level Objectives.
+                I'm passionate about open source and knowledge sharing
               </p>
             </div>
           </div>

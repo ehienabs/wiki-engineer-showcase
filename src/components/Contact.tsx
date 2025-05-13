@@ -37,13 +37,13 @@ const Contact = () => {
                     <label htmlFor="name" className="text-sm font-medium">
                       Your Name
                     </label>
-                    <Input id="name" placeholder="John Doe" required />
+                    <Input id="name" placeholder="Adekunle Ciroma" required />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">
                       Your Email
                     </label>
-                    <Input id="email" type="email" placeholder="john@example.com" required />
+                    <Input id="email" type="email" placeholder="adekunle@example.com" required />
                   </div>
                 </div>
                 <div className="space-y-2">
@@ -79,20 +79,6 @@ const Contact = () => {
             </div>
 
             <div className="space-y-4">
-              <Card className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-                <CardContent className="flex p-4">
-                  <div className="w-10 h-10 bg-wikimedia/10 rounded-full flex items-center justify-center mr-4">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-wikimedia">
-                      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-medium text-sm">Phone</h4>
-                    <p className="text-muted-foreground">+1 (555) 123-4567</p>
-                  </div>
-                </CardContent>
-              </Card>
-
               <Card className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
                 <CardContent className="flex p-4">
                   <div className="w-10 h-10 bg-wikimedia/10 rounded-full flex items-center justify-center mr-4">
@@ -103,7 +89,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm">Email</h4>
-                    <p className="text-muted-foreground">developer@wikimedia.org</p>
+                    <p className="text-muted-foreground">enabs.ehi@gmail.com</p>
                   </div>
                 </CardContent>
               </Card>
@@ -118,7 +104,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm">GitHub</h4>
-                    <p className="text-muted-foreground">github.com/wikimedia-dev</p>
+                    <p className="text-muted-foreground">https://github.com/ehienabs</p>
                   </div>
                 </CardContent>
               </Card>
@@ -134,7 +120,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm">LinkedIn</h4>
-                    <p className="text-muted-foreground">linkedin.com/in/wikimedia-dev</p>
+                    <p className="text-muted-foreground">www.linkedin.com/in/ehienabs</p>
                   </div>
                 </CardContent>
               </Card>
