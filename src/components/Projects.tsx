@@ -3,6 +3,7 @@ import React from "react";
 import { Card, CardContent, CardFooter } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Projects = () => {
   const projects = [
@@ -100,12 +101,16 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card key={index} className="project-card animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
               <a href={project.links.github} target="_blank" rel="noreferrer" className="block">
-                <div className="h-48 bg-muted flex items-center justify-center hover:bg-purple-500/10 transition-colors">
-                  <img 
-                    src={project.image} 
-                    alt={project.title} 
-                    className="w-16 h-16 opacity-50"
-                  />
+                <div className="h-48 bg-muted overflow-hidden">
+                  <AspectRatio ratio={16/9} className="h-full">
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className={`object-cover w-full h-full transition-all hover:scale-105 ${
+                        project.image.includes("placeholder") ? "w-16 h-16 object-contain m-auto opacity-50" : ""
+                      }`}
+                    />
+                  </AspectRatio>
                 </div>
               </a>
               <CardContent className="pt-6 pb-4">
