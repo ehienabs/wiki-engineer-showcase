@@ -44,7 +44,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.1s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
                       </svg>
