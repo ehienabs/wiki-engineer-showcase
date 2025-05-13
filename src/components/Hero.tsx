@@ -21,7 +21,7 @@ const Hero = () => {
             Software Engineer, passionate about open data and engineering systems that support data products at scale
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-stone-700 hover:bg-stone-700 text-white px-8 py-6" asChild>
+            <Button className="bg-stone-700 hover:bg-stone-900 text-white px-8 py-6" asChild>
               <a href="#projects">View My Work</a>
             </Button>
             <Button variant="outline" className="px-8 py-6" asChild>
