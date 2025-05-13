@@ -9,9 +9,9 @@ const Projects = () => {
   const projects = [
     {
       title: "Eftychia",
-      description: "Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. She only provisions the compute resources —VMs, Load Balancer, Disks etc.",
-      image: "/Eftychia.png",
-      tags: ["Terraform", "Infrastructure-as-code", "Kubernetes", "Infrastructure Automation"],
+      description: "Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. Provisioning only the compute resources —VMs, Load Balancer, Disks etc.",
+      image: "/azure.png",
+      tags: ["Azure", "Infrastructure-as-code", "Kubernetes", "Terraform"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/eftychia"
@@ -19,8 +19,8 @@ const Projects = () => {
     },
     {
       title: "Eutuxia",
-      description: "Eutuxia defines the application resources, management, infrastructure and deployment of a proposed video sharing platform as declarative code.",
-      image: "/Eutuxia.png",
+      description: "Eutuxia defines the application resources, management, infrastructure and deployment of a video sharing platform as declarative code.",
+      image: "/ArgoCD.png",
       tags: ["ArgoCD", "Continuous Deployment", "Kubernetes", "Developer Experience"],
       links: {
         demo: "#",
@@ -29,9 +29,9 @@ const Projects = () => {
     },
     {
       title: "Zemata",
-      description: "An innovative data processing framework for handling large-scale information with efficient algorithms and storage solutions.",
-      image: "/placeholder.svg",
-      tags: ["Data Processing", "Algorithms", "Storage Optimization", "Big Data"],
+      description: "Zemata discusses the cloud architecture for an online news platform to be deployed on Google Cloud Platform.",
+      image: "/GCP.png",
+      tags: [" GCP", "Cloud Architecture", "Software delivery", "Ptython"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/zemata"
@@ -39,9 +39,9 @@ const Projects = () => {
     },
     {
       title: "Databots GCP",
-      description: "Automated data collection and analysis bots designed to work within Google Cloud Platform for efficient data gathering and processing.",
-      image: "/placeholder.svg",
-      tags: ["GCP", "Data Collection", "Automation", "Cloud Computing"],
+      description: "Databotsgcp describes the deployment of a simple app. The app is to be deployed on Google’s Kubernetes Engine using Cloud Build for continuous integration & delivery, and terraform to codify the provisioning of infrastructure.",
+      image: "/GCP.png",
+      tags: ["GCP", "Infrastructure-as-code", "Terraform", "Kubernetes", "Continuous Integration"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/databotsgcp"
@@ -49,9 +49,9 @@ const Projects = () => {
     },
     {
       title: "Locust Load Testing",
-      description: "A performance testing framework using Locust for simulating thousands of users to test the scalability and performance of web applications.",
-      image: "/placeholder.svg",
-      tags: ["Locust", "Performance Testing", "Scalability", "Web Applications"],
+      description: "A performance testing framework using Locust for simulating thousands of users to test the scalability and performance of an API.",
+      image: "/locust.jpeg",
+      tags: ["Locust", "Load testing ", "Scalability", "API stress testing"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/locust-load-testing"
@@ -59,9 +59,9 @@ const Projects = () => {
     },
     {
       title: "Spartapp",
-      description: "A minimalist yet powerful application designed for efficiency and performance in resource-constrained environments.",
-      image: "/placeholder.svg",
-      tags: ["Minimalist", "Performance", "Efficiency", "Resource Optimization"],
+      description: "Application designed and managed with helm charts for reuseability, scalability and simplicity, to be deployed on Kubernetes.",
+      image: "/helm.png",
+      tags: ["Kubernetes", "Helm Charts", "Application templates", "Resource Optimisation"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/spartapp"
@@ -69,9 +69,9 @@ const Projects = () => {
     },
     {
       title: "Garden Project",
-      description: "An environmental monitoring system for gardens and plants, tracking growth metrics and environmental conditions for optimal plant health.",
-      image: "/placeholder.svg",
-      tags: ["Environmental", "Monitoring", "Plant Health", "IoT"],
+      description: "DevOps automation strategy for the deployment and management of multiple environments and pipelines in Kubernetes for a smoother developer experience",
+      image: "/garden.png",
+      tags: ["Garden", "Kubernetes", "Continuous Integration", "Remocal Development"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/gardenproj"
@@ -79,9 +79,9 @@ const Projects = () => {
     },
     {
       title: "Get Description",
-      description: "A tool for automatically generating and extracting descriptive metadata from various types of content, enhancing searchability and organization.",
-      image: "/placeholder.svg",
-      tags: ["Metadata", "Content Analysis", "Automation", "Organization"],
+      description: "A simple API for retrieving article descriptions from Wikipedia API",
+      image: "/wikipedia.jpeg",
+      tags: ["Wikipedia", "API", "Open Data", "Organization"],
       links: {
         demo: "#",
         github: "https://github.com/ehienabs/getdescription"
@@ -94,7 +94,7 @@ const Projects = () => {
       <div className="section-container">
         <h2 className="section-title">Featured Projects</h2>
         <p className="section-subtitle">
-          Selected projects showcasing my technical expertise and contributions
+          Projects showcasing my technical expertise and contributions
         </p>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-12">

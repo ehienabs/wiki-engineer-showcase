@@ -120,7 +120,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-sm">LinkedIn</h4>
-                    <p className="text-muted-foreground">www.linkedin.com/in/ehienabs</p>
+                    <p className="text-muted-foreground">linkedin.com/in/ehienabs</p>
                   </div>
                 </CardContent>
               </Card>

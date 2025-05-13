@@ -11,17 +11,17 @@ const Speaking = () => {
       title: "SDK Secrets: Unlocking API Magic",
       event: "GopherCon Africa",
       description: 
-        "A technical deep-dive into designing and implementing effective SDKs for APIs, focusing on best practices for developer experience.",
+        "An exploration of SDK development with Go, covering the “hows” and “whys” that every developer should know when building an SDK for their APIs. ",
       link: "https://speakerdeck.com/ehienabs/sdk-secrets-unlocking-api-magic",
-      tags: ["API Development", "Go", "SDK Design"]
+      tags: ["GO", "API Development", "SDK Design"]
     },
     {
       title: "KNOWLEDGE IS A HUMAN RIGHT: EMBRACING THE MOVEMENT STRATEGY",
       event: "WikiCon Nigeria",
       description:
-        "A passionate talk on the importance of knowledge accessibility and how the Wikimedia movement strategy addresses knowledge equity worldwide.",
+        "Speaking about the essential role of Wiki editors and volunteers in maintaining unbiased, representative, and accurate data, addressing AI-generated content's challenges, such as biases and hallucinations.",
       link: "https://speakerdeck.com/ehienabs/knowledge-is-a-human-right-embracing-the-movement-strategy",
-      tags: ["Knowledge Equity", "Wikimedia", "Open Knowledge"]
+      tags: ["Wikimedia", "Knowledge Equity", "Open Knowledge"]
     },
     {
       title: "Women in Tech Panel",
@@ -32,21 +32,21 @@ const Speaking = () => {
       tags: ["Women in Tech", "Panel", "Career Development"]
     },
     {
-      title: "Service Level Objectives and Indicators",
-      event: "SLOConf",
+      title: "Skills Gap: Nigeria Needs More Cloud Engineers",
+      event: "Arise News",
       description:
-        "As Captain for Africa at SLOConf, presented on setting effective SLOs and SLIs for large-scale distributed systems.",
-      link: "https://www.sloconf.com/",
-      tags: ["SRE", "Observability", "Performance"]
+        "Speaking to Arise News Africa about the dearth of cloud engineers in Nigeria and what can be done to address it.",
+      link: "https://youtu.be/VbgMqwF5S1I?si=OlxR6ZhSpJgEyVwr",
+      tags: ["Cloud Engineering", "Data Centers", "News"]
     }
   ];
 
   return (
     <section id="speaking" className="py-16 sm:py-24">
       <div className="section-container">
-        <h2 className="section-title">Conference Speaking</h2>
+        <h2 className="section-title">Media Appearances</h2>
         <p className="section-subtitle">
-          Sharing knowledge and insights at tech conferences around the world
+          Conference speaking and other media appearances.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
@@ -74,8 +74,8 @@ const Speaking = () => {
               <CardFooter className="flex justify-end pt-0">
                 <Button variant="ghost" size="sm" className="text-purple-600 hover:text-purple-700 hover:bg-purple-100" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
-                    View Presentation
-                    <ExternalLink size={14} />
+                    See more
+                    <ExternalLink size={10} />
                   </a>
                 </Button>
               </CardFooter>

@@ -19,17 +19,17 @@ const About = () => {
               <p>
                 I am passionate about architecting and deploying scalable applications for delivering large volumes 
                 of data through APIs. My primary focus is ensuring the longevity of software through resilient design,
-                a comprehensive moitoring strategy and smooth developer experience.
+                a comprehensive monitoring strategy and smooth developer experience.
               </p>
               <p>
-                My work transverse both enterprise and small scale, having provided support for software with over a billion downloads,
-                building developer friendly software delivery platorm and authoring comprehensive technical documentation.
+                My work transverse both enterprise and small scale users, having provided support for software with over a billion downloads,
+                building developer friendly software delivery platform and authoring comprehensive technical documentation.
               </p>
               <p>
-                I have  collaborated with globally remot teams to design, build and manage Kubernetes native applications, delivering highly available and scalable cloud-native solutions for enterprise customers.
+                I have  collaborated with globally remote teams to design, build and manage Kubernetes native applications, delivering highly available and scalable cloud-native solutions for enterprise customers.
               </p>
               <p>
-                I'm passionate about open source and knowledge sharing
+                I'm passionate about open source and knowledge sharing.
               </p>
             </div>
           </div>
@@ -102,13 +102,13 @@ const About = () => {
                       </svg>
                     </div>
                     <h3 className="font-bold">Community Service</h3>
-                    <p className="text-sm text-muted-foreground">Tech Community Engagement</p>
+                    <p className="text-sm text-muted-foreground">Community Engagements</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
                         <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                       </svg>
-                      Join community
+                      View communities
                     </Badge>
                   </CardContent>
                 </Card>
@@ -126,14 +126,14 @@ const About = () => {
                         <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
                       </svg>
                     </div>
-                    <h3 className="font-bold">Conference Speaking</h3>
-                    <p className="text-sm text-muted-foreground">Tech Conferences</p>
+                    <h3 className="font-bold">Public Appearances</h3>
+                    <p className="text-sm text-muted-foreground">Media</p>
                     <Badge variant="outline" className="mt-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-1">
                         <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path>
                         <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
                       </svg>
-                      View talks
+                      See More
                     </Badge>
                   </CardContent>
                 </Card>

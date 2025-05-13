@@ -9,7 +9,7 @@ const Certifications = () => {
       <div className="section-container">
         <h2 className="section-title">Certifications</h2>
         <p className="section-subtitle">
-          Professional technical qualifications and industry recognized credentials
+          Professional Certifications
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
@@ -28,7 +28,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Validates technical expertise in designing and deploying scalable systems on AWS.
+                  Technical expertise in designing and deploying scalable systems on AWS.
                 </p>
               </div>
             </CardContent>
@@ -51,7 +51,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Demonstrates the skills, knowledge, and competency to perform the responsibilities of a Kubernetes Administrator.
+                  Demonstrates the skills, knowledge, and competency of a Kubernetes Administrator.
                 </p>
               </div>
             </CardContent>
@@ -85,7 +85,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Validates the ability to deploy applications, monitor operations, and manage enterprise solutions on Google Cloud Platform.
+                  Technical expertise in deploying applications, monitoring operations, and managing enterprise software on Google Cloud Platform.
                 </p>
               </div>
             </CardContent>

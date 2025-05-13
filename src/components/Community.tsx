@@ -28,11 +28,11 @@ const Community = () => {
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                Part of a vibrant global program that supports enthusiasts who are passionate about sharing AWS knowledge and connecting with the technical community.
+                AWS Community Builder passionate about sharing AWS knowledge and connecting with the AWS community.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <Badge variant="outline">Cloud Computing</Badge>
-                <Badge variant="outline">Knowledge Sharing</Badge>
+                <Badge variant="outline">AWS</Badge>
                 <Badge variant="outline">Technical Writing</Badge>
               </div>
             </CardContent>
@@ -62,8 +62,8 @@ const Community = () => {
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
                 <Badge variant="outline">SRE</Badge>
-                <Badge variant="outline">Community Leadership</Badge>
-                <Badge variant="outline">Regional Advocacy</Badge>
+                <Badge variant="outline">SLIs</Badge>
+                <Badge variant="outline">SLOs</Badge>
               </div>
             </CardContent>
             <CardFooter>
