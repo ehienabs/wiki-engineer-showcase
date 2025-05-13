@@ -85,7 +85,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Technical expertise in deploying applications, monitoring operations, and managing enterprise software on Google Cloud Platform.
+                  Technical expertise in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud Platform.
                 </p>
               </div>
             </CardContent>

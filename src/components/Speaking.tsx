@@ -44,9 +44,9 @@ const Speaking = () => {
   return (
     <section id="speaking" className="py-16 sm:py-24">
       <div className="section-container">
-        <h2 className="section-title">Media Appearances</h2>
+        <h2 className="section-title">Media Appearance</h2>
         <p className="section-subtitle">
-          Conference speaking and other media appearances.
+          Conference speaking and other media appearance.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
@@ -75,7 +75,7 @@ const Speaking = () => {
                 <Button variant="ghost" size="sm" className="text-purple-600 hover:text-purple-700 hover:bg-purple-100" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
-                    <ExternalLink size={10} />
+                    <ExternalLink size={12} />
                   </a>
                 </Button>
               </CardFooter>
