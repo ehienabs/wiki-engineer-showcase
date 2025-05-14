@@ -3,7 +3,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-800 text-white py-12">
+    <footer className="bg-blue-500 text-white py-12">
       <div className="section-container bg-transparent">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0">
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="mt-8 pt-8 border-t border-blue-700 flex flex-col md:flex-row justify-between items-center">
+        <div className="mt-8 pt-8 border-t border-blue-400 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-blue-100 mb-4 md:mb-0">
             © 2025 Ehi Enabulele. All rights reserved.
           </p>

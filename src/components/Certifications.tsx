@@ -22,7 +22,7 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-blue-800">AWS Certified Solutions Architect</h3>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">AWS Certified Solutions Architect</h3>
                   <p className="text-sm text-blue-600">Amazon Web Services</p>
                 </div>
               </div>
@@ -45,7 +45,7 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-blue-800">Certified Kubernetes Administrator</h3>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Certified Kubernetes Administrator</h3>
                   <p className="text-sm text-blue-600">Cloud Native Computing Foundation</p>
                 </div>
               </div>
@@ -79,7 +79,7 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold text-blue-800">Associate Cloud Engineer</h3>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Associate Cloud Engineer</h3>
                   <p className="text-sm text-blue-600">Google Cloud Platform</p>
                 </div>
               </div>

@@ -98,10 +98,15 @@
 
   .section-title {
     @apply text-3xl md:text-4xl font-bold mb-8 text-center;
+    background: linear-gradient(to bottom, #33C3F0, #0072CE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .section-subtitle {
-    @apply text-lg md:text-xl text-blue-700 mb-12 text-center max-w-3xl mx-auto;
+    @apply text-lg md:text-xl mb-12 text-center max-w-3xl mx-auto;
+    color: #3B82F6;
   }
 }
 
@@ -138,4 +143,13 @@ html {
   background: rgba(211, 228, 253, 0.2);
   backdrop-filter: blur(5px);
   border: 1px solid rgba(211, 228, 253, 0.3);
+}
+
+/* Apply gradient to bold/big fonts */
+.big-bold-font {
+  @apply font-bold text-xl;
+  background: linear-gradient(to bottom, rgba(59, 130, 246, 0.1), rgba(59, 130, 246, 0.5));
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

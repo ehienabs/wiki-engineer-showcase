@@ -52,7 +52,7 @@ const Speaking = () => {
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {speeches.map((speech, index) => (
             <Card key={index} className="overflow-hidden border border-blue-200 transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-              <CardHeader className="bg-blue-100">
+              <CardHeader className="bg-gradient-to-b from-blue-100/10 to-blue-500/10">
                 <CardTitle className="text-xl font-bold text-blue-800">{speech.title}</CardTitle>
                 <CardDescription className="text-blue-700 font-medium">
                   {speech.event}
