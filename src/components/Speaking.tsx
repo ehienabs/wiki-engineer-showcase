@@ -54,7 +54,7 @@ const Speaking = () => {
             <Card key={index} className="overflow-hidden border border-border transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
               <CardHeader className="bg-secondary/30">
                 <CardTitle className="text-xl font-bold">{speech.title}</CardTitle>
-                <CardDescription className="text-purple-600 font-medium">
+                <CardDescription className="text-wikimedia font-medium">
                   {speech.event}
                 </CardDescription>
               </CardHeader>
@@ -72,7 +72,7 @@ const Speaking = () => {
               </CardContent>
               
               <CardFooter className="flex justify-end pt-0">
-                <Button variant="ghost" size="sm" className="text-purple-600 hover:text-purple-700 hover:bg-purple-100" asChild>
+                <Button variant="ghost" size="sm" className="text-black hover:text-white hover:bg-wikimedia-dark" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
                     <ExternalLink size={10} />

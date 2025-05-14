@@ -85,7 +85,7 @@ const Skills = () => {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
           {skillCategories.map((category, index) => (
             <Card key={index} className="animate-fade-in overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
-              <div className="bg-purple-600 text-white p-4 flex items-center">
+              <div className="bg-wikimedia text-white p-4 flex items-center">
                 <div className="mr-3">{category.icon}</div>
                 <h3 className="font-bold">{category.title}</h3>
               </div>
