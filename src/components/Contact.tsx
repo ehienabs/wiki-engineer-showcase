@@ -1,54 +1,22 @@
 
-import React, { useState } from "react";
+import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
-import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const { toast } = useToast();
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: ''
-  });
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { id, value } = e.target;
-    setFormData(prev => ({ ...prev, [id]: value }));
-  };
   
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    setIsSubmitting(true);
-    
-    // Send email using mailto link as a fallback method
-    const subject = encodeURIComponent(formData.subject);
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`
-    );
-    
-    // Open email client
-    window.location.href = `mailto:enabs.ehi@gmail.com?subject=${subject}&body=${body}`;
-    
-    // Show toast and reset form
     toast({
-      title: "Email client opened!",
-      description: "Please send the email from your email client to complete.",
+      title: "Message sent!",
+      description: "Thank you for reaching out. I'll get back to you soon.",
     });
-    
-    setFormData({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    });
-    
-    setIsSubmitting(false);
+    // Reset form
+    (e.target as HTMLFormElement).reset();
   };
 
   return (
@@ -69,39 +37,20 @@ const Contact = () => {
                     <label htmlFor="name" className="text-sm font-medium">
                       Your Name
                     </label>
-                    <Input 
-                      id="name" 
-                      placeholder="Adekunle Ciroma" 
-                      required 
-                      value={formData.name}
-                      onChange={handleChange}
-                    />
+                    <Input id="name" placeholder="Adekunle Ciroma" required />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">
                       Your Email
                     </label>
-                    <Input 
-                      id="email" 
-                      type="email" 
-                      placeholder="adekunle@example.com" 
-                      required 
-                      value={formData.email}
-                      onChange={handleChange}
-                    />
+                    <Input id="email" type="email" placeholder="adekunle@example.com" required />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium">
                     Subject
                   </label>
-                  <Input 
-                    id="subject" 
-                    placeholder="How can I help you?" 
-                    required 
-                    value={formData.subject}
-                    onChange={handleChange}
-                  />
+                  <Input id="subject" placeholder="How can I help you?" required />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
@@ -112,16 +61,10 @@ const Contact = () => {
                     placeholder="Let me know how I can help..."
                     className="min-h-32"
                     required
-                    value={formData.message}
-                    onChange={handleChange}
                   />
                 </div>
-                <Button 
-                  type="submit" 
-                  className="w-full bg-wikimedia hover:bg-wikimedia-dark text-black"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? "Sending..." : "Send Message"}
+                <Button type="submit" className="w-full bg-wikimedia hover:bg-wikimedia-dark">
+                  Send Message
                 </Button>
               </form>
             </CardContent>
