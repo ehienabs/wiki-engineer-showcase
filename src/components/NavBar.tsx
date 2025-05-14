@@ -28,13 +28,13 @@ const NavBar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6",
         scrolled
-          ? "bg-background/95 shadow-sm backdrop-blur-md"
+          ? "bg-gradient-to-r from-blue-900/90 to-red-900/90 shadow-sm backdrop-blur-md"
           : "bg-transparent"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="text-xl font-bold text-foreground">
-          <span className="text-stone-700">E</span>hi Enabulele
+          <span className="gradient-text">E</span>hi Enabulele
         </a>
 
         {/* Desktop menu */}
@@ -50,7 +50,7 @@ const NavBar = () => {
           ))}
           <a
             href="#contact"
-            className="bg-stone-700 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-stone-700 transition-colors"
+            className="bg-gradient-to-r from-blue-600 to-red-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 transition-colors"
           >
             Get in touch
           </a>
@@ -98,7 +98,7 @@ const NavBar = () => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "md:hidden fixed inset-x-0 top-16 bg-background/95 backdrop-blur-md transition-all duration-300 shadow-lg",
+          "md:hidden fixed inset-x-0 top-16 bg-gradient-to-r from-blue-900/95 to-red-900/95 backdrop-blur-md transition-all duration-300 shadow-lg",
           mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         )}
       >
@@ -116,7 +116,7 @@ const NavBar = () => {
           <a
             href="#contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="bg-wikimedia text-white px-4 py-2 rounded-md text-center text-sm font-medium"
+            className="bg-gradient-to-r from-blue-600 to-red-600 text-white px-4 py-2 rounded-md text-center text-sm font-medium"
           >
             Get in touch
           </a>

@@ -7,24 +7,24 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-16">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-500/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl" />
       </div>
       
-      <div className="section-container">
+      <div className="section-container bg-gradient-to-br from-blue-900/10 to-red-900/10">
         <div className="flex flex-col items-center text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 lg:mb-8">
             Ehi Enabulele
-            <br /> <span className="text-stone-700">Software Engineer</span>
+            <br /> <span className="gradient-text">Software Engineer</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 lg:mb-10">
             Software Engineer, passionate about open data and engineering systems that support data products at scale
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-stone-700 hover:bg-stone-900 text-white px-8 py-6" asChild>
+            <Button className="bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 text-white px-8 py-6" asChild>
               <a href="#projects">View My Work</a>
             </Button>
-            <Button variant="outline" className="px-8 py-6" asChild>
+            <Button variant="outline" className="px-8 py-6 border-blue-500 hover:bg-blue-50/10" asChild>
               <a href="#publications">Read My Articles</a>
             </Button>
           </div>

@@ -1,68 +1,69 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 210 100% 97%;
+    --foreground: 0 0% 0%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 210 50% 98%;
+    --card-foreground: 0 0% 0%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 210 50% 98%;
+    --popover-foreground: 0 0% 0%;
 
-    --primary: 0 0% 75%; /* Silver */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 0 100% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 0 80% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 0 0% 75%; /* Silver */
+    --ring: 210 100% 50%;
 
     --radius: 0.5rem;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 222 47% 11%;
     --foreground: 210 40% 98%;
 
-    --card: 222.2 84% 4.9%;
+    --card: 222 47% 11%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 222.2 84% 4.9%;
+    --popover: 222 47% 11%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 0 0% 75%; /* Silver */
-    --primary-foreground: 0 0% 0%; /* Black */
+    --primary: 210 100% 50%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 0 100% 60%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 0 80% 50%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 0 0% 75%; /* Silver */
+    --ring: 210 100% 50%;
   }
 }
 
@@ -73,14 +74,27 @@
 
   body {
     @apply bg-background text-foreground font-sans;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298, #b92b27);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 100vh;
   }
 
   h1, h2, h3, h4, h5, h6 {
     @apply font-sans font-bold tracking-tight;
+    background: linear-gradient(to right, #1e3c72, #b92b27);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
   }
 
   .section-container {
     @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   .section-title {
@@ -96,13 +110,33 @@
 
 /* Custom styles */
 .skill-tag {
-  @apply bg-secondary px-3 py-1 rounded-full text-sm font-medium hover:bg-secondary/80 transition-colors;
+  @apply bg-gradient-to-r from-blue-500 to-red-500 text-white px-3 py-1 rounded-full text-sm font-medium hover:opacity-90 transition-colors;
 }
 
 .project-card {
   @apply bg-card border rounded-lg overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1;
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.1), rgba(185, 43, 39, 0.1));
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+.gradient-text {
+  background: linear-gradient(to right, #1e3c72, #b92b27);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.gradient-bg {
+  background: linear-gradient(to right, #1e3c72, #b92b27);
+}
+
+.card {
+  background: linear-gradient(135deg, rgba(30, 60, 114, 0.2), rgba(185, 43, 39, 0.2));
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
