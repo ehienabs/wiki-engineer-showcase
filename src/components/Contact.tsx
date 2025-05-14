@@ -21,36 +21,36 @@ const Contact = () => {
 
   return (
     <section id="contact" className="py-16 sm:py-24">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Get in Touch</h2>
         <p className="section-subtitle">
           Have a question or want to work together? Send me a message!
         </p>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mt-12">
-          <Card className="p-6 animate-fade-in">
+          <Card className="p-6 animate-fade-in h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-0 space-y-6">
               <h3 className="text-xl font-bold">Send me a message</h3>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="space-y-2">
+                  <div className="space-y-2 ">
                     <label htmlFor="name" className="text-sm font-medium">
                       Your Name
-                    </label>
-                    <Input id="name" placeholder="Adekunle Ciroma" required />
+                    </label> 
+                    <Input className="border-2 hover:border-wikimedia hover:shadow-md transition-all" id="name" placeholder="Ciroma Chukwuma" required />
                   </div>
                   <div className="space-y-2">
                     <label htmlFor="email" className="text-sm font-medium">
                       Your Email
                     </label>
-                    <Input id="email" type="email" placeholder="adekunle@example.com" required />
+                    <Input className="border-2 hover:border-wikimedia hover:shadow-md transition-all" id="email" type="email" placeholder="ciroma@example.com" required />
                   </div>
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-sm font-medium">
                     Subject
                   </label>
-                  <Input id="subject" placeholder="How can I help you?" required />
+                  <Input className="h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" id="subject" placeholder="How can I help you?" required />
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-sm font-medium">
@@ -59,11 +59,11 @@ const Contact = () => {
                   <Textarea
                     id="message"
                     placeholder="Let me know how I can help..."
-                    className="min-h-32"
+                    className="min-h-32 border-2 hover:border-wikimedia hover:shadow-md transition-all"
                     required
                   />
                 </div>
-                <Button type="submit" className="w-full bg-wikimedia hover:bg-wikimedia-dark">
+                <Button type="submit" className="w-full bg-wikimedia text-white hover:bg-wikimedia-dark">
                   Send Message
                 </Button>
               </form>
@@ -71,7 +71,7 @@ const Contact = () => {
           </Card>
 
           <div className="space-y-6">
-            <div className="space-y-2 animate-fade-in" style={{ animationDelay: "0.1s" }}>
+            <div className="space-y-2 animate-fade-in " style={{ animationDelay: "0.1s" }}>
               <h3 className="text-xl font-bold">Contact Information</h3>
               <p className="text-muted-foreground">
                 Feel free to reach out through any of these channels
@@ -79,7 +79,7 @@ const Contact = () => {
             </div>
 
             <div className="space-y-4">
-              <Card className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
+              <Card className="animate-fade-in h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: "0.3s" }}>
                 <CardContent className="flex p-4">
                   <div className="w-10 h-10 bg-wikimedia/10 rounded-full flex items-center justify-center mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-wikimedia">
@@ -94,7 +94,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
+              <Card className="animate-fade-in h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: "0.4s" }}>
                 <CardContent className="flex p-4">
                   <div className="w-10 h-10 bg-wikimedia/10 rounded-full flex items-center justify-center mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-wikimedia">
@@ -109,7 +109,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              <Card className="animate-fade-in" style={{ animationDelay: "0.5s" }}>
+              <Card className="animate-fade-in  h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: "0.5s" }}>
                 <CardContent className="flex p-4">
                   <div className="w-10 h-10 bg-wikimedia/10 rounded-full flex items-center justify-center mr-4">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-wikimedia">

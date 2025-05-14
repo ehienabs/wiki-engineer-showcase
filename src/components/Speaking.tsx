@@ -43,7 +43,7 @@ const Speaking = () => {
 
   return (
     <section id="speaking" className="py-16 sm:py-24">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Media Appearances</h2>
         <p className="section-subtitle">
           Conference speaking and other media appearances.
@@ -51,7 +51,7 @@ const Speaking = () => {
 
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {speeches.map((speech, index) => (
-            <Card key={index} className="overflow-hidden border border-border transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
+            <Card key={index} className="h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{animationDelay: `${index * 0.1}s`}}>
               <CardHeader className="bg-secondary/30">
                 <CardTitle className="text-xl font-bold">{speech.title}</CardTitle>
                 <CardDescription className="text-wikimedia font-medium">

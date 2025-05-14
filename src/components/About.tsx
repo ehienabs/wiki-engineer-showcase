@@ -5,8 +5,8 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   return (
-    <section id="about" className="bg-secondary/50 py-16 sm:py-24">
-      <div className="section-container">
+    <section id="about" className="py-16 sm:py-24">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title text-bold">About Me</h2>
         <p className="section-subtitle">
           Committed to managing high-volume APIs and maintaining Cloud and Kubernetes Native applications at scale.

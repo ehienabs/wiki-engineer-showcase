@@ -6,14 +6,14 @@ import { Badge } from "@/components/ui/badge";
 const Certifications = () => {
   return (
     <section id="certifications" className="py-16 sm:py-24">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Certifications</h2>
         <p className="section-subtitle">
           Professional Certifications
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">
@@ -34,7 +34,7 @@ const Certifications = () => {
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">
@@ -57,7 +57,7 @@ const Certifications = () => {
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
                 <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">

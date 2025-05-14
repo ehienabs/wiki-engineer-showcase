@@ -7,14 +7,14 @@ import { Badge } from "@/components/ui/badge";
 const Community = () => {
   return (
     <section id="community" className="py-16 sm:py-24 bg-secondary/30">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Community Service</h2>
         <p className="section-subtitle">
           Actively contributing to and supporting the growth of technical communities
         </p>
         
         <div className="grid gap-8 md:grid-cols-3 mt-12">
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardHeader className="pb-2">
               <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -45,7 +45,7 @@ const Community = () => {
             </CardFooter>
           </Card>
           
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardHeader className="pb-2">
               <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -75,7 +75,7 @@ const Community = () => {
             </CardFooter>
           </Card>
           
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardHeader className="pb-2">
               <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

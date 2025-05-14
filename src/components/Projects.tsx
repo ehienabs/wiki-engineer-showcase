@@ -91,7 +91,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="py-16 sm:py-24 bg-secondary/30">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Featured Projects</h2>
         <p className="section-subtitle">
           Projects showcasing my technical expertise and contributions
@@ -99,7 +99,7 @@ const Projects = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-1 ">
           {projects.map((project, index) => (
-            <Card key={index} className="project-card animate-fade-in h-full border-3 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: `${index * 0.1}s` }}>
+            <Card key={index} className="project-card h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: `${index * 0.1}s` }}>
               <a href={project.links.github} target="_blank" rel="noreferrer" className="block">
                 <div className="h-48 bg-muted overflow-hidden">
                   <AspectRatio ratio={16/9} className="h-full">
