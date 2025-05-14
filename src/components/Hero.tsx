@@ -18,7 +18,7 @@ const Hero = () => {
             <br /> <span className="text-wikimedia">Software Engineer</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 lg:mb-10">
-            Software Engineer, passionate about open data and engineering systems that support data products at scale
+            Software Engineer passionate about open data and engineering resilient systems that support data products at scale.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-wikimedia hover:bg-wikimedia-dark text-white px-8 py-6" asChild>

@@ -51,7 +51,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Demonstrates the skills, knowledge, and competency of a Kubernetes Administrator.
+                  Demonstrates the skills, knowledge, and competence of a Kubernetes Administrator.
                 </p>
               </div>
             </CardContent>
@@ -85,7 +85,7 @@ const Certifications = () => {
               </div>
               <div className="mt-4">
                 <p className="text-sm">
-                  Technical expertise in deploying applications, monitoring operations, and managing enterprise software on Google Cloud Platform.
+                  Technical expertise in deploying, monitoring, and managing enterprise software on Google Cloud Platform.
                 </p>
               </div>
             </CardContent>

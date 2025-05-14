@@ -7,7 +7,7 @@ const Skills = () => {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Golang", "Python", "Bash", "SQL"],
+      skills: ["Golang", "Python", "Bash", "SQL", "React", "JavaScript"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="m18 16 4-4-4-4"/>
@@ -56,7 +56,7 @@ const Skills = () => {
     },
     {
       title: "Event-Driven Systems",
-      skills: ["Apache Kafka", "KSQLDB", "Event Processing", "Messaging Systems", "Data Streaming"],
+      skills: ["Apache Kafka", "KSQLDB", "Apache Airflow", "RabbitMQ", "Data Streaming"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -65,7 +65,7 @@ const Skills = () => {
     },
     {
       title: "Other Skills",
-      skills: ["JIRA", "Phabricator", "Zendesk", "Technical Documentation", "Mentoring", "Leadership", "Communication"],
+      skills: ["Version Control", "JIRA", "Phabricator", "Zendesk", "Technical Documentation", "Quality Assurance", "Agile Methodologies"],
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
@@ -79,7 +79,7 @@ const Skills = () => {
       <div className="section-container bg-gray-100">
         <h2 className="section-title">Skills & Expertise</h2>
         <p className="section-subtitle">
-          A collection of technologies and methodologies I work with
+          Programming languagues, platforms and other technologies I work with.
         </p>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">

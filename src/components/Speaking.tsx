@@ -64,7 +64,7 @@ const Speaking = () => {
                 
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
-                    <Badge key={i} variant="outline" className="bg-secondary/50">
+                    <Badge key={i} variant="outline" className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
                       {tag}
                     </Badge>
                   ))}
@@ -72,7 +72,7 @@ const Speaking = () => {
               </CardContent>
               
               <CardFooter className="flex justify-end pt-0">
-                <Button variant="ghost" size="sm" className="text-black hover:text-white hover:bg-wikimedia-dark" asChild>
+                <Button size="sm" className="text-black bg-wikimedia text-white hover:bg-wikimedia-dark" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
                     <ExternalLink size={10} />

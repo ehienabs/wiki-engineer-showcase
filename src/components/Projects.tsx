@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Eftychia",
       description: "Eftychia provisions the cloud infrastructure for bootstraping a Kubernetes cluster on Azure. Provisioning only the compute resources —VMs, Load Balancer, Disks etc.",
-      image: "/azure.png",
+      image: "/kubernetes.png",
       tags: ["Azure", "Infrastructure-as-code", "Kubernetes", "Terraform"],
       links: {
         demo: "#",
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: "Databots GCP",
       description: "Databotsgcp describes the deployment of a simple app. The app is to be deployed on Google’s Kubernetes Engine using Cloud Build for continuous integration & delivery, and terraform to codify the provisioning of infrastructure.",
-      image: "/GCP.png",
+      image: "/terrafrom.png",
       tags: ["GCP", "Infrastructure-as-code", "Terraform", "Kubernetes", "Continuous Integration"],
       links: {
         demo: "#",
