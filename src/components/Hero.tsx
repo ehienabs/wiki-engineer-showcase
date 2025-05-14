@@ -17,20 +17,20 @@ const Hero = () => {
             Ehi Enabulele
             <br /> <span className="gradient-text">Software Engineer</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 lg:mb-10">
+          <p className="text-lg md:text-xl text-blue-700 max-w-2xl mb-8 lg:mb-10">
             Software Engineer, passionate about open data and engineering systems that support data products at scale
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-gradient-to-b from-blue-300 to-blue-600 hover:from-blue-400 hover:to-blue-700 text-white px-8 py-6" asChild>
+            <Button className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-6" asChild>
               <a href="#projects">View My Work</a>
             </Button>
-            <Button variant="outline" className="px-8 py-6 border-blue-400 hover:bg-blue-50/10" asChild>
+            <Button variant="outline" className="px-8 py-6 border-blue-400 hover:bg-blue-50/10 text-blue-600" asChild>
               <a href="#publications">Read My Articles</a>
             </Button>
           </div>
           
           <div className="mt-16 md:mt-24">
-            <a href="#about" className="flex flex-col items-center text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#about" className="flex flex-col items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
               <p>Learn more about me</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="animate-bounce mt-2">
                 <path d="m6 9 6 6 6-6"/>

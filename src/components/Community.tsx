@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent, CardHeader, CardFooter } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -14,9 +13,9 @@ const Community = () => {
         </p>
         
         <div className="grid gap-8 md:grid-cols-3 mt-12">
-          <Card className="overflow-hidden transition-all hover:shadow-lg">
+          <Card className="overflow-hidden transition-all hover:shadow-lg border border-blue-200">
             <CardHeader className="pb-2">
-              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-3">
+              <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                   <circle cx="9" cy="7" r="4"/>
@@ -24,20 +23,20 @@ const Community = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">AWS Community Builder</h3>
+              <h3 className="text-xl font-bold text-blue-800">AWS Community Builder</h3>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-blue-700">
                 AWS Community Builder passionate about sharing AWS knowledge and connecting with the AWS community.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <Badge variant="outline">Cloud Computing</Badge>
-                <Badge variant="outline">AWS</Badge>
-                <Badge variant="outline">Technical Writing</Badge>
+                <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-200">Cloud Computing</Badge>
+                <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-200">AWS</Badge>
+                <Badge variant="outline" className="bg-blue-100 text-blue-700 border-blue-200">Technical Writing</Badge>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className="w-full" asChild>
+              <Button variant="outline" className="w-full text-blue-600 border-blue-300 hover:bg-blue-50" asChild>
                 <a href="https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=Ehi%2BEnabulele&cb-cards.q_operator=AND" target="_blank" rel="noopener noreferrer">
                   View Profile
                 </a>

@@ -51,20 +51,20 @@ const Speaking = () => {
 
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {speeches.map((speech, index) => (
-            <Card key={index} className="overflow-hidden border border-border transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-              <CardHeader className="bg-blue-500/30">
-                <CardTitle className="text-xl font-bold">{speech.title}</CardTitle>
+            <Card key={index} className="overflow-hidden border border-blue-200 transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
+              <CardHeader className="bg-blue-100">
+                <CardTitle className="text-xl font-bold text-blue-800">{speech.title}</CardTitle>
                 <CardDescription className="text-blue-700 font-medium">
                   {speech.event}
                 </CardDescription>
               </CardHeader>
               
               <CardContent className="pt-6">
-                <p className="text-muted-foreground">{speech.description}</p>
+                <p className="text-blue-700">{speech.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
-                    <Badge key={i} variant="outline" className="bg-blue-500/50">
+                    <Badge key={i} variant="outline" className="bg-blue-200 text-blue-800 border-blue-300">
                       {tag}
                     </Badge>
                   ))}
@@ -72,7 +72,7 @@ const Speaking = () => {
               </CardContent>
               
               <CardFooter className="flex justify-end pt-0">
-                <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700 hover:bg-blue-100" asChild>
+                <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-800 hover:bg-blue-100" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
                     <ExternalLink size={12} />
