@@ -22,18 +22,17 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold">AWS Certified Solutions Architect</h3>
-                  <p className="text-sm text-muted-foreground">Amazon Web Services</p>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">AWS Certified Solutions Architect</h3>
+                  <p className="text-sm text-blue-600">Amazon Web Services</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm">
+                <p className="text-sm text-blue-700">
                   Technical expertise in designing and deploying scalable systems on AWS.
                 </p>
               </div>
             </CardContent>
           </Card>
-
           <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
@@ -45,18 +44,17 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold">Certified Kubernetes Administrator</h3>
-                  <p className="text-sm text-muted-foreground">Cloud Native Computing Foundation</p>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Certified Kubernetes Administrator</h3>
+                  <p className="text-sm text-blue-600">Cloud Native Computing Foundation</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm">
+                <p className="text-sm text-blue-700">
                   Demonstrates the skills, knowledge, and competency of a Kubernetes Administrator.
                 </p>
               </div>
             </CardContent>
           </Card>
-
           <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
@@ -79,13 +77,13 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold">Associate Cloud Engineer</h3>
-                  <p className="text-sm text-muted-foreground">Google Cloud Platform</p>
+                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Associate Cloud Engineer</h3>
+                  <p className="text-sm text-blue-600">Google Cloud Platform</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm">
-                  Technical expertise in deploying applications, monitoring operations, and managing enterprise software on Google Cloud Platform.
+                <p className="text-sm text-blue-700">
+                  Technical expertise in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud Platform.
                 </p>
               </div>
             </CardContent>

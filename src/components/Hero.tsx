@@ -7,10 +7,9 @@ const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center pt-16">
       {/* Background decoration */}
       <div className="absolute inset-0 -z-10 overflow-hidden">
-        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl" />
+        <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-300/10 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl" />
       </div>
-      
       <div className="section-container bg-gray-100">
         <div className="flex flex-col items-center text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 lg:mb-8">
@@ -24,13 +23,13 @@ const Hero = () => {
             <Button className="bg-wikimedia hover:bg-wikimedia-dark text-white px-8 py-6" asChild>
               <a href="#projects">View My Work</a>
             </Button>
-            <Button variant="outline" className="px-8 py-6" asChild>
+            <Button variant="outline" className="px-8 py-6 border-blue-400 hover:bg-blue-50/10 text-blue-600" asChild>
               <a href="#publications">Read My Articles</a>
             </Button>
           </div>
           
           <div className="mt-16 md:mt-24">
-            <a href="#about" className="flex flex-col items-center text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <a href="#about" className="flex flex-col items-center text-sm text-blue-600 hover:text-blue-800 transition-colors">
               <p>Learn more about me</p>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="animate-bounce mt-2">
                 <path d="m6 9 6 6 6-6"/>

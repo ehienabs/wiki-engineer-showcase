@@ -24,10 +24,10 @@ const Community = () => {
                   <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">AWS Community Builder</h3>
+              <h3 className="text-xl font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">AWS Community Builder</h3>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-blue-700">
                 AWS Community Builder passionate about sharing AWS knowledge and connecting with the AWS community.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
@@ -44,7 +44,7 @@ const Community = () => {
               </Button>
             </CardFooter>
           </Card>
-          
+
           <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardHeader className="pb-2">
               <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-3">
@@ -54,10 +54,10 @@ const Community = () => {
                   <line x1="12" y1="17" x2="12.01" y2="17"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">SLOConf Captain Africa</h3>
+              <h3 className="text-xl font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">SLOConf Captain Africa</h3>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-blue-700">
                 Serving as the Africa regional captain for SLOConf, a conference focused on Service Level Objectives and reliability engineering practices.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
@@ -84,10 +84,10 @@ const Community = () => {
                   <path d="M17 3.34a10 10 0 0 1 0 17.32"/>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold">Fluent Bit Community</h3>
+              <h3 className="text-xl font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Fluent Bit Community</h3>
             </CardHeader>
             <CardContent>
-              <p className="text-muted-foreground">
+              <p className="text-blue-700">
                 Active contributor to the Fluent Bit community, sharing knowledge and helping others with observability and logging pipelines.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">

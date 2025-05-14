@@ -87,7 +87,7 @@ const Skills = () => {
             <Card key={index} className="animate-fade-in overflow-hidden border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: `${index * 0.1}s` }}>
               <div className="bg-wikimedia text-white p-4 flex items-center">
                 <div className="mr-3">{category.icon}</div>
-                <h3 className="font-bold">{category.title}</h3>
+                <h3 className="font-bold text-white">{category.title}</h3>
               </div>
               <CardContent className="p-6">
                 <div className="flex flex-wrap  gap-2">

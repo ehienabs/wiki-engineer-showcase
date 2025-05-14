@@ -55,7 +55,7 @@ const NavBar = () => {
           ))}
           <a
             href="#contact"
-            className="bg-wikimedia text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-wikimedia-dark transition-colors"
+            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
           >
             Get in touch
           </a>
@@ -103,7 +103,7 @@ const NavBar = () => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "md:hidden fixed inset-x-0 top-16 bg-background/95 backdrop-blur-md transition-all duration-300 shadow-lg",
+          "md:hidden fixed inset-x-0 top-16 bg-blue-500/95 backdrop-blur-md transition-all duration-300 shadow-lg",
           mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         )}
       >
