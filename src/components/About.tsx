@@ -5,16 +5,16 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   return (
-    <section id="about" className="bg-white py-16 sm:py-24">
-      <div className="section-container bg-gradient-to-b from-blue-100/10 to-blue-500/10">
-        <h2 className="section-title">About Me</h2>
+    <section id="about" className="py-16 sm:py-24">
+      <div className="section-container bg-gray-100">
+        <h2 className="section-title text-bold">About Me</h2>
         <p className="section-subtitle">
           Committed to managing high-volume APIs and maintaining Cloud and Kubernetes Native applications at scale.
         </p>
         
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mt-12">
           <div className="order-2 md:order-1 animate-fade-in">
-            <h3 className="text-2xl font-bold mb-4">Here's Me!</h3>
+            <h3 className="text-2xl font-bold text-wikimedia mb-4">Here's Me!</h3>
             <div className="space-y-4 text-base md:text-lg">
               <p>
                 I am passionate about architecting and deploying scalable applications for delivering large volumes 
@@ -44,7 +44,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.1s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
                       </svg>
@@ -68,7 +68,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.2s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-wikimediarounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <circle cx="12" cy="8" r="7"></circle>
                         <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
@@ -93,7 +93,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.3s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                         <circle cx="9" cy="7" r="4"></circle>
@@ -120,7 +120,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.4s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="M12 20h9"></path>
                         <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>

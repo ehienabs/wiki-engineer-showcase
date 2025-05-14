@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react";
 import { cn } from "@/lib/utils";
 
@@ -28,13 +27,16 @@ const NavBar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6",
         scrolled
-          ? "bg-blue-500/95 shadow-sm backdrop-blur-md"
+          ? "bg-wikimedia-dark text-white shadow-sm backdrop-blur-md"
           : "bg-transparent"
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <a href="#" className="text-xl font-bold text-foreground">
-          <span className="gradient-text">E</span>hi Enabulele
+        <a
+          href="#"
+          className={cn("text-xl font-bold", scrolled ? "text-white" : "text-foreground")}
+        >
+          <span className="text-wikimedia">E</span>hi Enabulele
         </a>
 
         {/* Desktop menu */}
@@ -43,14 +45,17 @@ const NavBar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="text-foreground/80 hover:text-foreground text-sm font-medium transition-colors"
+              className={cn(
+                "text-sm font-medium transition-colors hover:text-foreground",
+                scrolled ? "text-white/80 hover:text-white" : "text-foreground/80"
+              )}
             >
               {link.name}
             </a>
           ))}
           <a
             href="#contact"
-            className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+            className="bg-wikimedia text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-wikimedia-dark transition-colors"
           >
             Get in touch
           </a>
@@ -58,7 +63,7 @@ const NavBar = () => {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden text-foreground"
+          className={cn("md:hidden", scrolled ? "text-white" : "text-foreground")}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? (
@@ -98,7 +103,7 @@ const NavBar = () => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "md:hidden fixed inset-x-0 top-16 bg-blue-500/95 backdrop-blur-md transition-all duration-300 shadow-lg",
+          "md:hidden fixed inset-x-0 top-16 bg-background/95 backdrop-blur-md transition-all duration-300 shadow-lg",
           mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         )}
       >
@@ -108,7 +113,10 @@ const NavBar = () => {
               key={link.name}
               href={link.href}
               onClick={() => setMobileMenuOpen(false)}
-              className="text-white/80 hover:text-white px-4 py-2 text-sm font-medium"
+              className={cn(
+                "px-4 py-2 text-sm font-medium transition-colors",
+                scrolled ? "text-white/80 hover:text-white" : "text-foreground/80 hover:text-foreground"
+              )}
             >
               {link.name}
             </a>
@@ -116,7 +124,7 @@ const NavBar = () => {
           <a
             href="#contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="bg-blue-500 hover:bg-blue-700 text-white px-4 py-2 rounded-md text-center text-sm font-medium"
+            className="bg-wikimedia text-white px-4 py-2 rounded-md text-center text-sm font-medium hover:bg-wikimedia-dark transition-colors"
           >
             Get in touch
           </a>

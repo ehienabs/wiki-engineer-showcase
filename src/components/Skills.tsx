@@ -76,7 +76,7 @@ const Skills = () => {
 
   return (
     <section id="skills" className="py-16 sm:py-24">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Skills & Expertise</h2>
         <p className="section-subtitle">
           A collection of technologies and methodologies I work with
@@ -84,10 +84,10 @@ const Skills = () => {
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 mt-12">
           {skillCategories.map((category, index) => (
-            <Card key={index} className="animate-fade-in border border-blue-200 overflow-hidden" style={{ animationDelay: `${index * 0.1}s` }}>
-              <div className="bg-blue-500 text-white p-4 flex items-center">
+            <Card key={index} className="animate-fade-in overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{ animationDelay: `${index * 0.1}s` }}>
+              <div className="bg-wikimedia text-white p-4 flex items-center">
                 <div className="mr-3">{category.icon}</div>
-                <h3 className="font-bold text-white">{category.title}</h3>
+                <h3 className="font-bold">{category.title}</h3>
               </div>
               <CardContent className="p-6">
                 <div className="flex flex-wrap gap-2">

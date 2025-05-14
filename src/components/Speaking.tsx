@@ -1,3 +1,4 @@
+
 import React from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -9,8 +10,8 @@ const Speaking = () => {
     {
       title: "SDK Secrets: Unlocking API Magic",
       event: "GopherCon Africa",
-      description:
-        "An exploration of SDK development with Go, covering the \"hows\" and \"whys\" that every developer should know when building an SDK for their APIs. ",
+      description: 
+        "An exploration of SDK development with Go, covering the “hows” and “whys” that every developer should know when building an SDK for their APIs. ",
       link: "https://speakerdeck.com/ehienabs/sdk-secrets-unlocking-api-magic",
       tags: ["GO", "API Development", "SDK Design"]
     },
@@ -42,39 +43,39 @@ const Speaking = () => {
 
   return (
     <section id="speaking" className="py-16 sm:py-24">
-      <div className="section-container">
-        <h2 className="section-title">Media Appearance</h2>
+      <div className="section-container bg-gray-100">
+        <h2 className="section-title">Media Appearances</h2>
         <p className="section-subtitle">
-          Conference speaking and other media appearance.
+          Conference speaking and other media appearances.
         </p>
 
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {speeches.map((speech, index) => (
-            <Card key={index} className="overflow-hidden border border-blue-200 transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-              <CardHeader className="bg-gradient-to-b from-blue-100/10 to-blue-500/10">
-                <CardTitle className="text-xl font-bold text-blue-800">{speech.title}</CardTitle>
-                <CardDescription className="text-blue-700 font-medium">
+            <Card key={index} className="h-full border-2 hover:border-wikimedia hover:shadow-md transition-all" style={{animationDelay: `${index * 0.1}s`}}>
+              <CardHeader className="bg-secondary/30">
+                <CardTitle className="text-xl font-bold">{speech.title}</CardTitle>
+                <CardDescription className="text-wikimedia font-medium">
                   {speech.event}
                 </CardDescription>
               </CardHeader>
-
+              
               <CardContent className="pt-6">
-                <p className="text-blue-700">{speech.description}</p>
-
+                <p className="text-muted-foreground">{speech.description}</p>
+                
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
-                    <Badge key={i} variant="outline" className="bg-blue-200 text-blue-800 border-blue-300">
+                    <Badge key={i} variant="outline" className="bg-secondary/50">
                       {tag}
                     </Badge>
                   ))}
                 </div>
               </CardContent>
-
+              
               <CardFooter className="flex justify-end pt-0">
-                <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-800 hover:bg-blue-100" asChild>
+                <Button variant="ghost" size="sm" className="text-black hover:text-white hover:bg-wikimedia-dark" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
-                    <ExternalLink size={12} />
+                    <ExternalLink size={10} />
                   </a>
                 </Button>
               </CardFooter>

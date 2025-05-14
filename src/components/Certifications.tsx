@@ -6,38 +6,38 @@ import { Badge } from "@/components/ui/badge";
 const Certifications = () => {
   return (
     <section id="certifications" className="py-16 sm:py-24">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Certifications</h2>
         <p className="section-subtitle">
           Professional Certifications
         </p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-          <Card className="overflow-hidden transition-all hover:shadow-lg border border-blue-200">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">AWS Certified Solutions Architect</h3>
-                  <p className="text-sm text-blue-600">Amazon Web Services</p>
+                  <h3 className="font-bold">AWS Certified Solutions Architect</h3>
+                  <p className="text-sm text-muted-foreground">Amazon Web Services</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm text-blue-700">
+                <p className="text-sm">
                   Technical expertise in designing and deploying scalable systems on AWS.
                 </p>
               </div>
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden transition-all hover:shadow-lg border border-blue-200">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 11a9 9 0 0 1 9 9"/>
                     <path d="M4 4a16 16 0 0 1 16 16"/>
@@ -45,22 +45,22 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Certified Kubernetes Administrator</h3>
-                  <p className="text-sm text-blue-600">Cloud Native Computing Foundation</p>
+                  <h3 className="font-bold">Certified Kubernetes Administrator</h3>
+                  <p className="text-sm text-muted-foreground">Cloud Native Computing Foundation</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm text-blue-700">
+                <p className="text-sm">
                   Demonstrates the skills, knowledge, and competency of a Kubernetes Administrator.
                 </p>
               </div>
             </CardContent>
           </Card>
 
-          <Card className="overflow-hidden transition-all hover:shadow-lg border border-blue-200">
+          <Card className="overflow-hidden h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-wikimedia rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/>
                     <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
@@ -79,13 +79,13 @@ const Certifications = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-bold bg-gradient-to-b from-blue-100/10 to-blue-500/10 text-blue-800">Associate Cloud Engineer</h3>
-                  <p className="text-sm text-blue-600">Google Cloud Platform</p>
+                  <h3 className="font-bold">Associate Cloud Engineer</h3>
+                  <p className="text-sm text-muted-foreground">Google Cloud Platform</p>
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-sm text-blue-700">
-                  Technical expertise in deploying applications, monitoring operations, and managing enterprise solutions on Google Cloud Platform.
+                <p className="text-sm">
+                  Technical expertise in deploying applications, monitoring operations, and managing enterprise software on Google Cloud Platform.
                 </p>
               </div>
             </CardContent>
