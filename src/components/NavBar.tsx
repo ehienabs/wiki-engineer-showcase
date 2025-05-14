@@ -28,7 +28,7 @@ const NavBar = () => {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 py-4 px-6",
         scrolled
-          ? "bg-gradient-to-r from-blue-900/90 to-red-900/90 shadow-sm backdrop-blur-md"
+          ? "bg-gradient-to-b from-blue-300/90 to-blue-600/90 shadow-sm backdrop-blur-md"
           : "bg-transparent"
       )}
     >
@@ -50,7 +50,7 @@ const NavBar = () => {
           ))}
           <a
             href="#contact"
-            className="bg-gradient-to-r from-blue-600 to-red-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 transition-colors"
+            className="bg-gradient-to-b from-blue-300 to-blue-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:opacity-90 transition-colors"
           >
             Get in touch
           </a>
@@ -98,7 +98,7 @@ const NavBar = () => {
       {/* Mobile menu */}
       <div
         className={cn(
-          "md:hidden fixed inset-x-0 top-16 bg-gradient-to-r from-blue-900/95 to-red-900/95 backdrop-blur-md transition-all duration-300 shadow-lg",
+          "md:hidden fixed inset-x-0 top-16 bg-gradient-to-b from-blue-300/95 to-blue-600/95 backdrop-blur-md transition-all duration-300 shadow-lg",
           mobileMenuOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4 pointer-events-none"
         )}
       >
@@ -116,7 +116,7 @@ const NavBar = () => {
           <a
             href="#contact"
             onClick={() => setMobileMenuOpen(false)}
-            className="bg-gradient-to-r from-blue-600 to-red-600 text-white px-4 py-2 rounded-md text-center text-sm font-medium"
+            className="bg-gradient-to-b from-blue-300 to-blue-600 text-white px-4 py-2 rounded-md text-center text-sm font-medium"
           >
             Get in touch
           </a>

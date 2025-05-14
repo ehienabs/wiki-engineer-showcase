@@ -16,7 +16,7 @@ const Certifications = () => {
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
                   </svg>
@@ -37,7 +37,7 @@ const Certifications = () => {
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M4 11a9 9 0 0 1 9 9"/>
                     <path d="M4 4a16 16 0 0 1 16 16"/>
@@ -60,7 +60,7 @@ const Certifications = () => {
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardContent className="p-6">
               <div className="flex items-center space-x-4">
-                <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <path d="M12 20a8 8 0 1 0 0-16 8 8 0 0 0 0 16Z"/>
                     <path d="M12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>

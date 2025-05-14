@@ -6,7 +6,7 @@ import { Badge } from "@/components/ui/badge";
 
 const Community = () => {
   return (
-    <section id="community" className="py-16 sm:py-24 bg-secondary/30">
+    <section id="community" className="py-16 sm:py-24 bg-blue-100/30">
       <div className="section-container">
         <h2 className="section-title">Community Service</h2>
         <p className="section-subtitle">
@@ -16,7 +16,7 @@ const Community = () => {
         <div className="grid gap-8 md:grid-cols-3 mt-12">
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardHeader className="pb-2">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-3">
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
                   <circle cx="9" cy="7" r="4"/>
@@ -47,7 +47,7 @@ const Community = () => {
           
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardHeader className="pb-2">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-3">
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/>
                   <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
@@ -77,7 +77,7 @@ const Community = () => {
           
           <Card className="overflow-hidden transition-all hover:shadow-lg">
             <CardHeader className="pb-2">
-              <div className="w-12 h-12 bg-purple-600 rounded-full flex items-center justify-center mb-3">
+              <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center mb-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/>
                   <path d="m2 12 5 3-2 4.5"/>

@@ -11,7 +11,7 @@ const Speaking = () => {
       title: "SDK Secrets: Unlocking API Magic",
       event: "GopherCon Africa",
       description: 
-        "An exploration of SDK development with Go, covering the “hows” and “whys” that every developer should know when building an SDK for their APIs. ",
+        "An exploration of SDK development with Go, covering the "hows" and "whys" that every developer should know when building an SDK for their APIs. ",
       link: "https://speakerdeck.com/ehienabs/sdk-secrets-unlocking-api-magic",
       tags: ["GO", "API Development", "SDK Design"]
     },
@@ -52,9 +52,9 @@ const Speaking = () => {
         <div className="grid sm:grid-cols-2 gap-6 mt-12">
           {speeches.map((speech, index) => (
             <Card key={index} className="overflow-hidden border border-border transition-all duration-300 hover:shadow-lg animate-fade-in" style={{animationDelay: `${index * 0.1}s`}}>
-              <CardHeader className="bg-secondary/30">
+              <CardHeader className="bg-blue-500/30">
                 <CardTitle className="text-xl font-bold">{speech.title}</CardTitle>
-                <CardDescription className="text-purple-600 font-medium">
+                <CardDescription className="text-blue-700 font-medium">
                   {speech.event}
                 </CardDescription>
               </CardHeader>
@@ -64,7 +64,7 @@ const Speaking = () => {
                 
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
-                    <Badge key={i} variant="outline" className="bg-secondary/50">
+                    <Badge key={i} variant="outline" className="bg-blue-500/50">
                       {tag}
                     </Badge>
                   ))}
@@ -72,7 +72,7 @@ const Speaking = () => {
               </CardContent>
               
               <CardFooter className="flex justify-end pt-0">
-                <Button variant="ghost" size="sm" className="text-purple-600 hover:text-purple-700 hover:bg-purple-100" asChild>
+                <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-700 hover:bg-blue-100" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
                     See more
                     <ExternalLink size={12} />
