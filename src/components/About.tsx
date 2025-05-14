@@ -5,8 +5,8 @@ import { Badge } from "@/components/ui/badge";
 
 const About = () => {
   return (
-    <section id="about" className="bg-secondary/50 py-16 sm:py-24">
-      <div className="section-container">
+    <section id="about" className="bg-white py-16 sm:py-24">
+      <div className="section-container bg-gradient-to-b from-blue-100/10 to-blue-500/10">
         <h2 className="section-title">About Me</h2>
         <p className="section-subtitle">
           Committed to managing high-volume APIs and maintaining Cloud and Kubernetes Native applications at scale.
@@ -44,7 +44,7 @@ const About = () => {
               >
                 <Card className="p-4 animate-fade-in h-full" style={{animationDelay: "0.1s"}}>
                   <CardContent className="p-0 flex flex-col items-center text-center">
-                    <div className="w-12 h-12 bg-stone-700 rounded-full flex items-center justify-center mb-2">
+                    <div className="w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center mb-2">
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                         <path d="m8 3 4 8 5-5 5 15H2L8 3z"/>
                       </svg>

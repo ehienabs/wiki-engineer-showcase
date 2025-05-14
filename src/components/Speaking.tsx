@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -10,8 +9,8 @@ const Speaking = () => {
     {
       title: "SDK Secrets: Unlocking API Magic",
       event: "GopherCon Africa",
-      description: 
-        "An exploration of SDK development with Go, covering the "hows" and "whys" that every developer should know when building an SDK for their APIs. ",
+      description:
+        "An exploration of SDK development with Go, covering the \"hows\" and \"whys\" that every developer should know when building an SDK for their APIs. ",
       link: "https://speakerdeck.com/ehienabs/sdk-secrets-unlocking-api-magic",
       tags: ["GO", "API Development", "SDK Design"]
     },
@@ -58,10 +57,10 @@ const Speaking = () => {
                   {speech.event}
                 </CardDescription>
               </CardHeader>
-              
+
               <CardContent className="pt-6">
                 <p className="text-blue-700">{speech.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
                     <Badge key={i} variant="outline" className="bg-blue-200 text-blue-800 border-blue-300">
@@ -70,7 +69,7 @@ const Speaking = () => {
                   ))}
                 </div>
               </CardContent>
-              
+
               <CardFooter className="flex justify-end pt-0">
                 <Button variant="ghost" size="sm" className="text-blue-600 hover:text-blue-800 hover:bg-blue-100" asChild>
                   <a href={speech.link} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
