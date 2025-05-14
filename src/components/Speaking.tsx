@@ -64,7 +64,7 @@ const Speaking = () => {
                 
                 <div className="flex flex-wrap gap-2 mt-4">
                   {speech.tags.map((tag, i) => (
-                    <Badge key={i} variant="outline" className="bg-secondary/50">
+                    <Badge key={i} variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">
                       {tag}
                     </Badge>
                   ))}

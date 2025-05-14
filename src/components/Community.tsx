@@ -31,13 +31,13 @@ const Community = () => {
                 AWS Community Builder passionate about sharing AWS knowledge and connecting with the AWS community.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <Badge variant="outline">Cloud Computing</Badge>
-                <Badge variant="outline">AWS</Badge>
-                <Badge variant="outline">Technical Writing</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">Cloud Computing</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">AWS</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">Technical Writing</Badge>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className="w-full" asChild>
+              <Button className="w-full bg-wikimedia text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-wikimedia-dark transition-colors" asChild>
                 <a href="https://aws.amazon.com/developer/community/community-builders/community-builders-directory/?cb-cards.sort-by=item.additionalFields.cbName&cb-cards.sort-order=asc&awsf.builder-category=*all&awsf.location=*all&awsf.year=*all&cb-cards.q=Ehi%2BEnabulele&cb-cards.q_operator=AND" target="_blank" rel="noopener noreferrer">
                   View Profile
                 </a>
@@ -61,13 +61,13 @@ const Community = () => {
                 Serving as the Africa regional captain for SLOConf, a conference focused on Service Level Objectives and reliability engineering practices.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <Badge variant="outline">SRE</Badge>
-                <Badge variant="outline">SLIs</Badge>
-                <Badge variant="outline">SLOs</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">SRE</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">SLIs</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">SLOs</Badge>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className="w-full" asChild>
+              <Button className="w-full bg-wikimedia text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-wikimedia-dark transition-colors" asChild>
                 <a href="https://www.nobl9.com/resources/sloconf-captains" target="_blank" rel="noopener noreferrer">
                   Learn More
                 </a>
@@ -91,13 +91,13 @@ const Community = () => {
                 Active contributor to the Fluent Bit community, sharing knowledge and helping others with observability and logging pipelines.
               </p>
               <div className="mt-4 flex flex-wrap gap-2">
-                <Badge variant="outline">Open Source</Badge>
-                <Badge variant="outline">Observability</Badge>
-                <Badge variant="outline">Knowledge Sharing</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">Open Source</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">Observability</Badge>
+                <Badge variant="outline" className="h-full border-2 hover:border-wikimedia hover:shadow-md">Knowledge Sharing</Badge>
               </div>
             </CardContent>
             <CardFooter>
-              <Button variant="outline" className="w-full" disabled>
+              <Button className="w-full bg-wikimedia text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-wikimedia-dark transition-colors">
                 Community Member
               </Button>
             </CardFooter>
