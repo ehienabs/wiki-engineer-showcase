@@ -10,18 +10,17 @@ const Hero = () => {
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-blue-300/10 rounded-full blur-3xl" />
         <div className="absolute bottom-1/4 left-1/4 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl" />
       </div>
-      
-      <div className="section-container bg-gradient-to-b from-blue-100/10 to-blue-500/10">
+      <div className="section-container bg-gray-100">
         <div className="flex flex-col items-center text-center animate-fade-in">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 lg:mb-8">
             Ehi Enabulele
-            <br /> <span className="gradient-text">Software Engineer</span>
+            <br /> <span className="text-wikimedia">Software Engineer</span>
           </h1>
-          <p className="text-lg md:text-xl text-blue-700 max-w-2xl mb-8 lg:mb-10">
-            Software Engineer, passionate about open data and engineering systems that support data products at scale
+          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mb-8 lg:mb-10">
+            Software Engineer, passionate about open data and engineering systems that support data products.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <Button className="bg-red-500 hover:bg-blue-600 text-white px-8 py-6" asChild>
+            <Button className="bg-wikimedia hover:bg-wikimedia-dark text-white px-8 py-6" asChild>
               <a href="#projects">View My Work</a>
             </Button>
             <Button variant="outline" className="px-8 py-6 border-blue-400 hover:bg-blue-50/10 text-blue-600" asChild>

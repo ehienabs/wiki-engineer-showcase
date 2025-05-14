@@ -54,10 +54,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				wikimedia: {
-					DEFAULT: '#C0C0C0', // Silver
-					light: '#E0E0E0', // Light Silver
-					dark: '#222222', // Dark Gray
-					accent: '#808080' // Gray
+					DEFAULT: '#2a4b8d',
+					light: '#c8ccd1',
+					dark: '#162238',
+					accent: '#36c'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',

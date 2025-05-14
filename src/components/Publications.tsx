@@ -103,7 +103,7 @@ const Publications = () => {
 
   return (
     <section id="publications" className="py-16 sm:py-24 bg-secondary/30">
-      <div className="section-container">
+      <div className="section-container bg-gray-100">
         <h2 className="section-title">Published Articles</h2>
         <p className="section-subtitle">
           Technical articles and guides I've authored across various platforms
@@ -112,7 +112,7 @@ const Publications = () => {
         <div className="space-y-8 mt-12">
           {Object.entries(platformGroups).map(([platform, items], groupIndex) => (
             <div key={platform} className="animate-fade-in" style={{ animationDelay: `${groupIndex * 0.1}s` }}>
-              <h3 className="font-bold text-xl mb-4 flex items-center gap-2 text-purple-600">
+              <h3 className="font-bold text-xl mb-4 flex items-center gap-2 text-wikimedia">
                 <FileText className="h-5 w-5" />
                 {platform}
               </h3>
@@ -126,10 +126,10 @@ const Publications = () => {
                     key={index} 
                     className="block transition-all hover:scale-102 hover:-translate-y-1"
                   >
-                    <Card className="h-full border-2 hover:border-purple-300 hover:shadow-md transition-all">
+                    <Card className="h-full border-2 hover:border-wikimedia hover:shadow-md transition-all">
                       <CardContent className="p-5">
                         <div className="flex justify-between items-start mb-3">
-                          <Badge variant="outline" className="bg-purple-50 text-purple-700">
+                          <Badge variant="outline" className="bg-wikimedia text-white">
                             {publication.category}
                           </Badge>
                           <ExternalLink className="h-4 w-4 text-muted-foreground" />
